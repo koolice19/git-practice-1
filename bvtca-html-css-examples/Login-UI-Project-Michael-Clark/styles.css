@@ -8,6 +8,7 @@ body {
     padding: 0;
     height: 100vh;
     width: 100vw;
+    background-image: url("geran-de-klerk-WJkc3xZjSXw-unsplash.jpg");
 }
 
 #container {
@@ -16,7 +17,8 @@ body {
     height:100%;
     justify-content: center;
     align-items: center;
-    background-color: rgb(187, 187, 187);
+    background-image: url("geran-de-klerk-WJkc3xZjSXw-unsplash.jpg");
+     
 }
 
 #card {
@@ -28,9 +30,9 @@ body {
     min-height: 140px;
     max-height: 210px;
     align-items:center;
-    background-color: rgb(198, 202, 202);
+    background-color: rgba(8, 54, 8, 0.82);
     padding: 1em;
-    box-shadow: 0px 3px 22px -2px rgba(0,0,0,0.82);
+    box-shadow: 0px 3px 22px -2px rgba(173, 179, 173, 0.82);
 }
 
 #username{
@@ -39,6 +41,10 @@ body {
     border-left-color: transparent;
     border-right-color: transparent;
     background-color: transparent;
+}
+#username:focus{
+    outline: 0em;
+    background-color: rgba(1,1,1,0.05);
 }
 #password{
     margin: 1em;
@@ -52,7 +58,7 @@ body {
     background-color: rgba(1,1,1,0.05);
 }
 #button {
-    background-color: #79a9c5; /* blue */
+    background-color: #b1cbda; /* blue */
     border: none;
     color: white;
     padding: 15px 32px;
