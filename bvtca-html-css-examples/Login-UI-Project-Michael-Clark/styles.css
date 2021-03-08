@@ -2,7 +2,6 @@ html {
     margin: 0;
     padding: 0;
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -10,7 +9,6 @@ body {
     width: 100vw;
     background-image: url("geran-de-klerk-WJkc3xZjSXw-unsplash.jpg");
 }
-
 #container {
     display: flex;
     width: 100%;
@@ -18,9 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("geran-de-klerk-WJkc3xZjSXw-unsplash.jpg");
-     
 }
-
 #card {
     border-radius: 10px;
     display: flex;
@@ -34,33 +30,22 @@ body {
     padding: 1em;
     box-shadow: 0px 3px 22px -2px rgba(173, 179, 173, 0.82);
 }
-
-#username{
+#userName, #password {
     margin: 1em;
-    border-top-color: transparent;
-    border-left-color: transparent;
-    border-right-color: transparent;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: .15em solid #9ea0a1;
     background-color: transparent;
 }
-#username:focus{
+#userName:focus, #password:focus {
     outline: 0em;
-    background-color: rgba(1,1,1,0.05);
+    background-color: #00000010;
 }
-#password{
-    margin: 1em;
-    border-top-color: transparent;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    background-color: transparent;
-}
-#password:focus{
-    outline: 0em;
-    background-color: rgba(1,1,1,0.05);
-}
-#button {
+  #button {
     background-color: #b1cbda; /* blue */
     border: none;
-    color: rgb(0, 0, 0);
+    color: #000;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -69,12 +54,16 @@ body {
     font-size: 12px;
     border-radius: 5px;
     box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.82);
+    outline: 0;
+    font-weight: bold;
   }
+#button:active {
+    background-color: #79a9c5;
+}
   #signIn {
     margin: 1em;
     font-family: 'Trebuchet MS', sans-serif, Times, serif;
     font-size: 18px;
     font-style: oblique;
     font-weight: bold;
-   
   }
